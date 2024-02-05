@@ -3,6 +3,9 @@ export default function Home() {
   return (
     <div className="bg-black">
       <Navbar/>
+      <p>
+        contact
+      </p>
     </div>
   );
 }
