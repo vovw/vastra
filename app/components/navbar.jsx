@@ -12,7 +12,7 @@ const Navbar = () => {
           {isOpen ? '✕' : '☰'}
         </button>
       </div>
-      <div className={`${isOpen ? 'flex' : 'hidden'} flex-col md:flex md:flex-row md:justify-center space-x-0 md:space-x-4`}>
+      <div className={`${isOpen ? 'flex' : 'hidden'} flex-col items-center md:flex md:flex-row md:justify-center space-x-0 md:space-x-4`}>
         <Link href="/alumni" legacyBehavior>
           <a className="underline hover:transform hover:scale-110 transition duration-300 font-lg">Alumni</a>
         </Link>
@@ -21,6 +21,9 @@ const Navbar = () => {
         </Link>
         <Link href="/events" legacyBehavior>
           <a className="underline hover:transform hover:scale-110 transition duration-300 font-lg">Events</a>
+        </Link>
+        <Link href="/gallery" legacyBehavior>
+          <a className="underline hover:transform hover:scale-110 transition duration-300 font-lg">Gallery</a>
         </Link>
         <Link href="/contact" legacyBehavior>
           <a className="underline hover:transform hover:scale-110 transition duration-300 font-lg">Contact</a>
