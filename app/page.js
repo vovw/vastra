@@ -5,9 +5,9 @@ export default function Home() {
     <div className="">
       <Navbar/>
       <div className="flex justify-start items-center h-full">
-        <img src="logo.jpg" alt="Logo" className="h-64 w-64 mx-auto my-0 sm:h-48 sm:w-48 hover-grow"/>
+        <img src="logo.png" alt="Logo" className="h-64 w-64 mx-auto my-0 sm:h-48 sm:w-48 hover-grow"/>
       </div>
-      <div className="text-centre" style={{ backgroundImage: "url('vjti.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+      <div className="text-centre" style={{ backgroundImage: "url('VJTI.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <br/>
         <p className="text-6xl font-averia flex justify-center">Vastra'24</p>
         <p className="text-2xl flex justify-center font-light">Elevate Fashion with Technology</p>
