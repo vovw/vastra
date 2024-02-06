@@ -7,7 +7,7 @@ export default function Home() {
       <div className="flex justify-start items-center h-full">
         <img src="logo.jpg" alt="Logo" className="h-64 w-64 mx-auto my-0 sm:h-48 sm:w-48 hover-grow"/>
       </div>
-      <div className="text-centre">
+      <div className="text-centre" style={{ backgroundImage: "url('background.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <br/>
         <p className="text-6xl font-averia flex justify-center">Vastra'24</p>
         <p className="text-2xl flex justify-center font-light">Elevate Fashion with Technology</p>
@@ -22,7 +22,6 @@ export default function Home() {
         <p className="text-2l flex justify-centre">Initiated in 2003, VASTRA has gained overwhelming response and has now bloomed into one of the most important Textile festivals of our country. It has a footfall of over 5,000 students and industry officials from all over the country. It facilitates a platform to students who have excelled in the Textile sector and also a wide exposure to everyone visiting the fest. The objectives of VASTRA and its events are to provide a platform for the students to showcase their talent, creativity, innovative skills and to form a strong bond between the institute and various phases of Textile Industry.</p>
       </div>
     </div>
-
 
   );
 }
