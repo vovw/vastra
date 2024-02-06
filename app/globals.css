@@ -40,3 +40,12 @@ body {
 .font-averia {
   font-family: 'Averia Libre', cursive;
 }
+@keyframes filmGrain {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+
+.element-with-film-grain {
+  animation: filmGrain 10s infinite linear;
+  /* background-image: url('film-grain.png'); */
+}
