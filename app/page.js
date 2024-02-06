@@ -5,7 +5,7 @@ export default function Home() {
     <div className="">
       <Navbar/>
       <div className="flex justify-start items-center h-full">
-        <img src="logo.jpg" alt="Logo" className="h-64 w-64 mx-auto my-0 sm:h-48 sm:w-48 hover-grow"/>
+        <img src="logo.png" alt="Logo" className="h-64 w-64 mx-auto my-0 sm:h-48 sm:w-48 hover-grow"/>
       </div>
       <div className="text-centre" style={{ backgroundImage: "url('vjti.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <br/>
