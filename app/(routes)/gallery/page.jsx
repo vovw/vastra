@@ -12,8 +12,6 @@ export default function my_gallery() {
     return (
       <div>
       <Navbar/>
-      </div>
-      <div>
         <Gallery {...{images, widths, ratios}} />
       </div>
     )
