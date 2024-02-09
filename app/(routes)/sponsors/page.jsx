@@ -17,7 +17,7 @@ const ImageGallery = () => {
     <p className="text-black text-6xl font-averia flex justify-center ">Past Sponsors</p>
     <div className="grid grid-cols-3 gap-4 lg:px-20">
       {imageFiles.map((image, index) => (
-        <img key={index} src={`/images/${image}`} alt={`Image ${index}`} />
+        <img key={index} src={`/sponsors/${image}`} alt={`Image ${index}`} />
       ))}
     </div>
     </div>
