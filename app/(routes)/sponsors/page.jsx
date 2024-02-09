@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 const ImageGallery = () => {
-  const imageFolder = path.join(process.cwd(), 'public/images'); 
+  const imageFolder = path.join(process.cwd(), 'public/sponsors'); 
   let imageFiles = [];
   try {
     imageFiles = fs.readdirSync(imageFolder);
