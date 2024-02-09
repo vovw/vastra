@@ -3,7 +3,7 @@ import Navbar from "./components/navbar";
 export default function Home() {
   return (
     <div className="">
-      <div className="" style={{ backgroundImage: "url('VJTI.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+      <div className="" style={{backgroundImage: "url('VJTI.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <Navbar />
         <div className="landing h-screen w-screen text-centre" >
           <div className="flex ">
@@ -22,7 +22,7 @@ export default function Home() {
           <img src="vjti_gate.png" className="rounded-full h-80 key-hig-img object-cover object-center" />
         </div>
         <div className="text-white md:w-1/2 p-4">
-          <p className="bg-red text-4xl">VJTI</p>
+        <p className="bg-red text-4xl text-center">VJTI</p>
           <p className="text-2l">The Institute was founded in 1887 and commenced with two departments, the Ripon Textile School and the Sir J.J.School of Mechanical Engineering. The Veermata Jijabai Technological Institute was given its present title on January 26,1997. Founded in 1887, it was then known as Victoria Jubilee Technical Institute. The Institute is reputed for excellent training in courses in engineering and technology at diploma, degree and post-graduate levels of overthree thousand students. Over twenty seven courses are offered at the under-graduate, postgraduate, diploma, post-graduate diploma. A fulltime Ph.D.programme has been started in 2006-2007.</p>
         </div>
       </div>

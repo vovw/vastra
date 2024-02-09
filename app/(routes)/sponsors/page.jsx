@@ -14,7 +14,7 @@ const ImageGallery = () => {
 
   return (
     <div className="bg-white">
-
+        <Navbar/>
     <p className="text-black text-6xl font-averia flex justify-center ">Past Sponsors</p>
     <div className="grid grid-cols-3 gap-4 lg:px-20">
       {imageFiles.map((image, index) => (
