@@ -15,8 +15,6 @@ export default function Home() {
       </div>
 
 
-
-
       <div className="flex flex-col md:flex-row justify-between items-center" style={{ backgroundImage: "url('noise-light.png')", display: "flex" }}>
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden flex flex-row justify-center">
           <img src="vjti_gate.png" className="rounded-full h-80 key-hig-img object-cover object-center" />
@@ -27,11 +25,16 @@ export default function Home() {
         </div>
       </div>
 
-
-      <div>
+      <div className="flex flex-col md:flex-row justify-between items-center" style={{ backgroundImage: "url('noise-light.png')", display: "flex" }}>
+        <div className="text-white md:w-1/2 p-4">
         <p className="text-4xl font-averia flex justify-center">Vastra</p>
         <p className="text-2l flex justify-centre">Initiated in 2003, VASTRA has gained overwhelming response and has now bloomed into one of the most important Textile festivals of our country. It has a footfall of over 5,000 students and industry officials from all over the country. It facilitates a platform to students who have excelled in the Textile sector and also a wide exposure to everyone visiting the fest. The objectives of VASTRA and its events are to provide a platform for the students to showcase their talent, creativity, innovative skills and to form a strong bond between the institute and various phases of Textile Industry.</p>
+        </div>
+        <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden flex flex-row justify-center">
+          <img src="vjti_gate.png" className="rounded-full h-80 key-hig-img object-cover object-center" />
+        </div>
       </div>
+
     </div>
   );
 }

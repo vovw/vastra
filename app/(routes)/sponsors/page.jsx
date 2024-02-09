@@ -1,14 +1,22 @@
-import Navbar from "@/app/components/navbar";
+import fs from 'fs';
+import path from 'path';
 
+const ImageGallery = () => {
+  const imageFolder = path.join(process.cwd(), 'public'); 
+  let imageFiles = [];
+  try {
+    imageFiles = fs.readdirSync(imageFolder);
+  } catch (error) {
+    console.error('Error reading image files:', error);
+  }
 
-export default function Home() {
   return (
-    <div className="bg-black">
-      <Navbar/>
-      <p>
-        Sponsors
-      </p>
-
+    <div>
+      {imageFiles.map((image, index) => (
+        <img key={index} src={`/images/${image}`} alt={`Image ${index}`} />
+      ))}
     </div>
   );
-}
+};
+
+export default ImageGallery;
