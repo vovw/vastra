@@ -16,9 +16,9 @@ const Navbar = () => {
         <Link href="/" legacyBehavior>
             <a className="underline hover:transform hover:scale-110 transition duration-300 font-lg">Home</a>
         </Link>
-        <Link href="/alumni" legacyBehavior>
+        {/* <Link href="/alumni" legacyBehavior>
           <a className="underline hover:transform hover:scale-110 transition duration-300 font-lg">Alumni</a>
-        </Link>
+        </Link> */}
         <Link href="/sponsors" legacyBehavior>
           <a className="underline hover:transform hover:scale-110 transition duration-300 font-lg">Sponsors</a>
         </Link>

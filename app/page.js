@@ -11,6 +11,8 @@ export default function Home() {
           </div>
           <p className="text-6xl font-averia flex justify-center">Vastra'24</p>
           <p className="text-2xl flex justify-center font-light">Elevate Fashion with Technology</p>
+          <img src="charkha.png" alt="charkha" className="h-64 w-64 px-100 my-0 sm:h-48 sm:w-48 hover-grow" />
+          <img src="sui_dhaga.png" alt="Logo" className="h-64 w-64 mx-auto my-0 sm:h-48 sm:w-48 hover-grow" />
         </div>
       </div>
 

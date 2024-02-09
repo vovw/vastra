@@ -1,6 +1,7 @@
 import React from 'react';
 import fs from 'fs';
 import path from 'path';
+import Navbar from '@/app/components/navbar';
 
 const ImageGallery = () => {
   const imageFolder = path.join(process.cwd(), 'public/sponsors'); 
