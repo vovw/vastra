@@ -1,8 +1,9 @@
+import React from 'react';
 import fs from 'fs';
 import path from 'path';
 
 const ImageGallery = () => {
-  const imageFolder = path.join(process.cwd(), 'public'); 
+  const imageFolder = path.join(process.cwd(), 'public/images'); 
   let imageFiles = [];
   try {
     imageFiles = fs.readdirSync(imageFolder);
@@ -11,10 +12,14 @@ const ImageGallery = () => {
   }
 
   return (
-    <div>
+    <div className="bg-white">
+
+    <p className="text-black text-6xl font-averia flex justify-center ">Past Sponsors</p>
+    <div className="grid grid-cols-3 gap-4 lg:px-20">
       {imageFiles.map((image, index) => (
         <img key={index} src={`/images/${image}`} alt={`Image ${index}`} />
       ))}
+    </div>
     </div>
   );
 };
