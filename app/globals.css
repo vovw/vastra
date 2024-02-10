@@ -39,8 +39,9 @@ body {
   transition: transform 0.2s ease-in-out; /* Smooth transition */
 }
 
-.font-averia {
-  font-family: 'Averia Libre', cursive;
+.font-pop {
+  font-family: 'Poppins', sans-serif;
+
 }
 @keyframes filmGrain {
   0% { background-position: 0 0; }

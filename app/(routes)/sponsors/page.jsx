@@ -22,6 +22,7 @@ const ImageGallery = () => {
       ))}
     </div>
     </div>
+    </div>
   );
 };
 
