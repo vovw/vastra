@@ -17,7 +17,7 @@ const ratios = [ 2.2, 4, 6, 8 ]
 
 export default function my_gallery() {
     return (
-      <div>
+      <div className="bg-gradient-to-b from-black to-gray-300">
       <Navbar/>
         <Gallery {...{images, widths, ratios}} />
       </div>

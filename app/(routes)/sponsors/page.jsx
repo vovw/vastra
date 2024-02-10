@@ -13,13 +13,19 @@ const ImageGallery = () => {
   }
 
   return (
-    <div className="bg-white">
-
-    <p className="text-black text-6xl font-averia flex justify-center ">Past Sponsors</p>
+    <div>
+    <Navbar/>
+    <div className="bg-gradient-to-b from-black to-gray-300">
+      <br></br>
+      <br></br>
+    <p className="italic text-6xl font-averia flex justify-center ">Past Sponsors</p>
+      <br></br>
+      <br></br>
     <div className="grid grid-cols-3 gap-4 lg:px-20">
       {imageFiles.map((image, index) => (
         <img key={index} src={`/sponsors/${image}`} alt={`Image ${index}`} />
       ))}
+    </div>
     </div>
     </div>
   );

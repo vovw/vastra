@@ -12,7 +12,7 @@ const Navbar = () => {
           {isOpen ? '✕' : '☰'}
         </button>
       </div>
-      <div className={`${isOpen ? 'flex' : 'hidden'} flex-col items-center md:flex md:flex-row md:justify-center space-x-0 md:space-x-4`}>
+      <div className={`${isOpen ? 'flex' : 'hidden'} flex-col items-center md:flex md:flex-row md:justify-center space-x-0 md:space-x-4`} style={{ transition: 'height 0.3s ease-in-out' }}>
         <Link href="/" legacyBehavior>
             <a className="underline hover:transform hover:scale-110 transition duration-300 font-lg">Home</a>
         </Link>
