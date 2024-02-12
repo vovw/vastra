@@ -17,8 +17,6 @@ export default function Home() {
           <br/>
           <br/>
           <br/>
-          <br/>
-          <br/>
           <div className="flex justify-center">
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wgdNa0aKv5k?si=8J8jDvO-rTX3q6QH&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
@@ -43,7 +41,7 @@ export default function Home() {
         <p className="text-2l flex justify-centre">Initiated in 2003, VASTRA has gained overwhelming response and has now bloomed into one of the most important Textile festivals of our country. It has a footfall of over 5,000 students and industry officials from all over the country. It facilitates a platform to students who have excelled in the Textile sector and also a wide exposure to everyone visiting the fest. The objectives of VASTRA and its events are to provide a platform for the students to showcase their talent, creativity, innovative skills and to form a strong bond between the institute and various phases of Textile Industry.</p>
         </div>
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden flex flex-row justify-center">
-          <img src="vjti_gate.png" className="rounded-full h-80 key-hig-img object-cover object-center" />
+          <img src="vastra19.jpeg" className="rounded-full h-80 key-hig-img object-cover object-center" />
         </div>
       </div>
 
