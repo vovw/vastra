@@ -17,7 +17,6 @@ const ContactUsPage = () => {
         <p className="mb-4">Name: Atharva Joshi</p>
         <p className="mb-4">Email: vastra2020@gmail.com</p>
         <p className="mb-4">number: 8956955998</p>
-        <p>Address</p>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ export default function Home() {
     <div>
     <Navbar/>
     <div className="flex justify-center items-center h-screen">
-      <p className="text-6xl font-averia">coming soon</p>
+      <img src="/gallery/Coming Soon.gif" alt="Coming Soon Image" />
     </div>
     </div>
   );
