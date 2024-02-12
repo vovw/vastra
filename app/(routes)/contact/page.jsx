@@ -10,13 +10,13 @@ const ContactUsPage = () => {
       </Head>
       <div className="text-center mb-6">
         <h1 className="text-4xl font-bold">Contact Us</h1>
-        <p className="text-gray-600 font-bold">Get in touch with us for any inquiries or support.</p>
-
+        <p className="text-gray-600 font-light">Get in touch with us for any inquiries or support.</p>
       </div>
       <div className="max-w-md mx-auto bg-black p-8 rounded-lg shadow-md">
         <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
-        <p className="mb-4">Email: contact@example.com</p>
-        <p className="mb-4">Name</p>
+        <p className="mb-4">Name: Atharva Joshi</p>
+        <p className="mb-4">Email: vastra2020@gmail.com</p>
+        <p className="mb-4">number: 8956955998</p>
         <p>Address</p>
       </div>
     </div>
