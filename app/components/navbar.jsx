@@ -4,7 +4,6 @@ import { useState } from 'react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   return (
     <nav className="py-8 text-lg">
       <div className="flex justify-center md:hidden">

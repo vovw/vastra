@@ -1,8 +1,9 @@
 import Navbar from "./components/navbar";
+import Footer from "./components/fotter";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-black">
       <div className="" style={{ backgroundImage: "url('VJTI.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <Navbar />
         <div className="landing h-screen w-screen text-centre justify-centre items-centre " >
@@ -31,7 +32,7 @@ export default function Home() {
         </div>
         <div className="text-white md:w-1/2 p-4">
           <p className="bg-red text-4xl">VJTI</p>
-          <p className="text-2l">The Institute was founded in 1887 and commenced with two departments, the Ripon Textile School and the Sir J.J.School of Mechanical Engineering. The Veermata Jijabai Technological Institute was given its present title on January 26,1997. Founded in 1887, it was then known as Victoria Jubilee Technical Institute. The Institute is reputed for excellent training in courses in engineering and technology at diploma, degree and post-graduate levels of overthree thousand students. Over twenty seven courses are offered at the under-graduate, postgraduate, diploma, post-graduate diploma. A fulltime Ph.D.programme has been started in 2006-2007.</p>
+          <p className="text-2l">The Institute was founded in 1887 and commenced with two departments, the Ripon Textile School and the Sir J.J.School of Mechanical Engineering. The Veermata Jijabai Technological Institute was given its present title on January 26,1997. Founded in 1887, it was then known as Victoria Jubilee Technical Institute. The Institute is reputed for excellent training in courses in engineering and technology at diploma, degree and post-graduate levels of overthree thousand students. Over twenty seven courses are offered at the under-graduate, postgraduate, diploma, post-graduate diploma.</p>
         </div>
       </div>
 
@@ -40,11 +41,12 @@ export default function Home() {
         <p className="bg-red text-4xl">Vastra</p>
         <p className="text-2l flex justify-centre">Initiated in 2003, VASTRA has gained overwhelming response and has now bloomed into one of the most important Textile festivals of our country. It has a footfall of over 5,000 students and industry officials from all over the country. It facilitates a platform to students who have excelled in the Textile sector and also a wide exposure to everyone visiting the fest. The objectives of VASTRA and its events are to provide a platform for the students to showcase their talent, creativity, innovative skills and to form a strong bond between the institute and various phases of Textile Industry.</p>
         </div>
-        <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden flex flex-row justify-center">
-          <img src="vastra19.jpeg" className="rounded-full h-80 key-hig-img object-cover object-center" />
+        <div className="lg:w-1/2 w-full mb-10 lg:mb-0 overflow-hidden flex flex-row justify-center">
+          <img src="https://cdn.discordapp.com/attachments/1181588462021902376/1206872476374798386/image.png?ex=65dd9694&is=65cb2194&hm=ab27c2a8fb5b1e4d9215de056a8ad22fd9c101cfb8c40e3a64e8ca2211c1b768&" className="h-80 key-hig-img object-cover object-center" style={{ borderRadius: "50%" }}  />
         </div>
-      </div>
 
-    </div>
+      </div >
+          <Footer/>
+      </div>
   );
 }
