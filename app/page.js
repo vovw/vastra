@@ -10,10 +10,10 @@ export default function Home() {
           <div className="flex justify-center"> {/* Centering the image */}
             <img src="logo.png" alt="Logo" className="h-64 w-64 sm:h-48 sm:w-48 hover-grow" />
           </div>
-          <div>
+          <div style={{ color: "white" }}>
             <p className="text-6xl font-serif flex justify-center">Vastra'24</p> 
           <div className="flex justify-center">
-            <p className="text-2xl font-light">Elevate Fashion with Technology</p>
+            <p className="text-2xl font-light" style={{ color: "white" }}>Elevate Fashion with Technology</p>
           </div>
           <br/>
           <br/>

@@ -14,9 +14,9 @@ const ContactUsPage = () => {
       </div>
       <div className="max-w-md mx-auto bg-black p-8 rounded-lg shadow-md">
         <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
-        <p className="mb-4">Name: Atharva Joshi</p>
+        <p className="mb-4">Atharva Joshi</p>
         <p className="mb-4">Email: vastra2020@gmail.com</p>
-        <p className="mb-4">number: 8956955998</p>
+        <p className="mb-4">Number: 8956955998</p>
       </div>
     </div>
   );
