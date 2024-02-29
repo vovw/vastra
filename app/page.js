@@ -17,8 +17,6 @@ export default function Home() {
         <div
           className="landing text-centre justify-centre items-centre h-screen w-screen "
           style={{
-            backgroundColor: "rgba(0, 0, 0, 0.5)",
-            borderRadius: "1000px",
             padding: "10px",
           }}
         >
@@ -76,7 +74,7 @@ export default function Home() {
           />
         </div>
         <div
-          className="p-4 text-white md:w-1/2"
+          className="rounded-md p-4 text-white md:w-1/2"
           style={{
             backdropFilter: "blur(50px)",
             backgroundColor: "rgba(0, 0, 0, 0.5)",
@@ -110,7 +108,7 @@ export default function Home() {
         }}
       >
         <div
-          className="p-4 text-white md:w-1/2"
+          className="rounded-md p-4 text-white md:w-1/2"
           style={{
             backdropFilter: "blur(50px)",
             backgroundColor: "rgba(0, 0, 0, 0.5)",
@@ -161,7 +159,7 @@ export default function Home() {
           />
         </div>
         <div
-          className="p-4 text-white md:w-1/2"
+          className="rounded-md p-4 text-white md:w-1/2"
           style={{
             backdropFilter: "blur(8px)",
             backgroundColor: "rgba(0, 0, 0, 0.5)",
