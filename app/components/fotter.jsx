@@ -6,6 +6,7 @@ export default function Footer() {
     <footer className="bg-dark" style={{ backgroundImage: "url('noise-light.png"}}>
       <div className="container mx-auto px-4 py-8">
         <div className="flex justify-center space-x-4">
+          <p>vastra2020@gmail.com</p>
           <Link href="https://www.instagram.com/vastravjti/" target="_blank">
               <Instagram />
           </Link>

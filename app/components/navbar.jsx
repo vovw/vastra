@@ -7,11 +7,11 @@ const Navbar = () => {
   return (
     <nav className="py-8 text-lg">
       <div className="flex justify-center md:hidden">
-        <button onClick={() => setIsOpen(!isOpen)} className="text-4xl">
+        <button onClick={() => setIsOpen((prev) => !prev)} className="text-4xl">
           {isOpen ? '✕' : '☰'}
         </button>
       </div>
-      <div className={`${isOpen ? 'flex' : 'hidden'} flex-col items-center md:flex md:flex-row md:justify-center space-x-0 md:space-x-4`} style={{ transition: 'height 0.3s ease-in-out' }}>
+      <div className={`${isOpen ? 'flex' : 'hidden'} flex-col items-center md:flex md:flex-row md:justify-center space-x-0 md:space-x-4`} style={{ transition: 'height 1s ease-in-out' }}>
         <Link href="/" legacyBehavior>
             <a className="underline hover:transform hover:scale-110 transition duration-300 font-lg">Home</a>
         </Link>

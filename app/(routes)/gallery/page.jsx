@@ -1,5 +1,6 @@
 import { Gallery } from "next-gallery"
 import Navbar from "@/app/components/navbar"
+import Footer from "@/app/components/fotter"
 
 const images = [
     { src: "/gallery/1.jpg", aspect_ratio: 16/9 },
@@ -17,9 +18,13 @@ const ratios = [ 2.2, 4, 6, 8 ]
 
 export default function my_gallery() {
     return (
-      <div className="bg-gradient-to-b from-black to-gray-300">
+      <div className="bg-gradient-to-b from-black to-black-300">
       <Navbar/>
-        <Gallery {...{images, widths, ratios}} />
+        <Gallery
+          {...{images, widths, ratios}}
+          spacing={100}
+        />
+        <Footer/>
       </div>
     )
 }

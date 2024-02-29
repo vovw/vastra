@@ -2,6 +2,7 @@ import React from 'react';
 import fs from 'fs';
 import path from 'path';
 import Navbar from '@/app/components/navbar';
+import Footer from '@/app/components/fotter';
 
 const ImageGallery = () => {
   const imageFolder = path.join(process.cwd(), 'public/sponsors'); 
@@ -15,10 +16,10 @@ const ImageGallery = () => {
   return (
     <div>
     <Navbar/>
-    <div className="bg-gradient-to-b from-black to-gray-300">
+    <div className="bg-gradient-to-b from-white to-white-300">
       <br></br>
       <br></br>
-    <p className="text-6xl font-serif flex justify-center">Past Sponsors</p>
+    <p className="text-6xl font-serif flex text-black justify-center">Past Sponsors</p>
 
       <br></br>
       <br></br>
@@ -29,6 +30,7 @@ const ImageGallery = () => {
       <br/>
     </div>
     </div>
+      <Footer/>
     </div>
   );
 };

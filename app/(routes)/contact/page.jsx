@@ -1,5 +1,6 @@
 import Navbar from "@/app/components/navbar";
 import Head from 'next/head';
+import Footer from "@/app/components/fotter";
 
 const ContactUsPage = () => {
   return (
@@ -18,6 +19,7 @@ const ContactUsPage = () => {
         <p className="mb-4">Email: vastra2020@gmail.com</p>
         <p className="mb-4">Number: 8956955998</p>
       </div>
+      <Footer/>
     </div>
   );
 };
