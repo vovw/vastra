@@ -1,13 +1,15 @@
 import GlobalStyles from "./GlobalStyles";
+import Head from 'next/head';
 
-
-function MyApp({ Component, pageProps }) {
+function Home({ Component, pageProps }) {
   return (
     <>
+      <Head>
+      </Head>
       <GlobalStyles />
       <Component {...pageProps} />
     </>
   );
 }
 
-export default MyApp;
+export default Home;

@@ -51,3 +51,7 @@ body {
   animation: filmGrain 10s infinite linear;
   /* background-image: url('film-grain.png'); */
 }
+
+.element-to-change-cursor {
+  cursor: url('/meow.png'), auto;
+}

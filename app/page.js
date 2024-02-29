@@ -3,6 +3,7 @@ import Footer from "./components/fotter";
 
 export default function Home() {
   return (
+ 
     <div className="bg-black">
       <div className="" style={{ backgroundImage: "url('VJTI.jpg')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
         <Navbar />
