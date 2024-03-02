@@ -3,55 +3,58 @@
 @tailwind utilities;
 
 :root {
-    --foreground-rgb: 0, 0, 0;
-    --background-start-rgb: 214, 219, 220;
-    --background-end-rgb: 255, 255, 255;
-    --text-color: rgb(var(--foreground-rgb));
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --text-color: rgb(var(--foreground-rgb));
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --foreground-rgb: 255, 255, 255;
-        --background-start-rgb: 0, 0, 0;
-        --background-end-rgb: 0, 0, 0;
-        --text-color: rgb(var(--foreground-rgb));
-    }
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+    --text-color: rgb(var(--foreground-rgb));
+  }
 }
 
 body {
-    color: var(--text-color);
-    background: linear-gradient(
-            to bottom,
-            transparent,
-            rgb(var(--background-end-rgb))
-        )
-        rgb(var(--background-start-rgb));
+  color: var(--text-color);
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
-    .text-balance {
-        text-wrap: balance;
-    }
+  .text-balance {
+    text-wrap: balance;
+  }
 }
 
 .hover-grow:hover {
-    transform: scale(1.08); /* Adjust scale value as needed */
-    transition: transform 0.2s ease-in-out; /* Smooth transition */
+  transform: scale(1.08); /* Adjust scale value as needed */
+  transition: transform 0.2s ease-in-out; /* Smooth transition */
 }
 
 .font-pop {
-    font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 @keyframes filmGrain {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: 100% 100%;
-    }
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
 }
 
 .element-with-film-grain {
-    animation: filmGrain 10s infinite linear;
-    /* background-image: url('film-grain.png'); */
+  animation: filmGrain 10s infinite linear;
+  /* background-image: url('film-grain.png'); */
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1000px, 3fr));
+  grid-gap: 3rem;
+  margin-bottom: 2rem;
 }
