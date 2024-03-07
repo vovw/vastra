@@ -6,11 +6,11 @@ import Navbar from "@/app/components/navbar";
 const galleryData = [
   {
     id: 1,
-    imageUrl: "/VJTI.jpg",
+    imageUrl: "/public/VJTI.jpg",
   },
   {
     id: 2,
-    imageUrl: "/VJTI.jpg",
+    imageUrl: "",
   },
   {
     id: 3,

@@ -12,7 +12,7 @@ const ContactPage = () => {
           </h2>
           <div className="rounded-lg bg-white p-6 text-center">
             <h3 className="mb-4 text-xl font-semibold">Contact Information</h3>
-            <p className="mb-2 text-gray-700">
+            <p className="mb-2 text-gray-700" >
               <span className="font-bold">
                 Subodh Mhanmunkar (General Secretary):
               </span>{" "}

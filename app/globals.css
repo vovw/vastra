@@ -51,8 +51,14 @@ body {
     color: white;
 }
 
-.landingContent img {
+.landingContent img:hover{
     max-width: 200px;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.landingContent img{
+    font-weight: 600;
 }
 
 .landingContent h1 {

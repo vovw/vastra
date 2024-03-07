@@ -2,8 +2,7 @@
   {
     "id": 1,
     "name": "ABC Corp",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "fileName": "abc_logo.png"
+    "fileName": "/public/logo.png"
   },
   {
     "id": 2,
