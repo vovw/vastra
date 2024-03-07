@@ -1,27 +1,22 @@
 [
   {
     "id": 1,
-    "title": "Event 1",
-    "description": "Description of Event 1"
+    "title": "Paper Prentation 📜"
   },
   {
     "id": 2,
-    "title": "Event 2",
-    "description": "Description of Event 2"
+    "title": "Fashion Show 🎤"
   },
   {
     "id": 3,
-    "title": "Event 3",
-    "description": "Description of Event 3"
+    "title": "Technical Quiz 🧑‍🔬"
   },
   {
     "id": 4,
-    "title": "Event 4",
-    "description": "Description of Event 4"
+    "title": "Draping Fusion ✨"
   },
   {
     "id": 5,
-    "title": "Event 5",
-    "description": "Description of Event 5"
+    "title": "Spontaneous Sketching ✍️"
   }
 ]

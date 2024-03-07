@@ -11,7 +11,7 @@ const EventsPage = () => {
         <h2 className="mb-8 text-3xl font-bold text-white">Events</h2>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           <Card
-            imageSource="/path/to/alumni-meet.jpg"
+            imageSource="/events/almuni.jpg"
             title="Textile Alumni Meet"
             description="Join us for the annual Textile Alumni Meet to connect with fellow alumni and share experiences."
           />
