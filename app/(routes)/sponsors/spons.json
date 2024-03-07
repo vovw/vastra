@@ -1,19 +1,16 @@
 [
   {
     "id": 1,
-    "name": "ABC Corp",
-    "fileName": "/public/logo.png"
+    "name": "ABC Corp"
   },
   {
     "id": 2,
     "name": "XYZ Inc",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "fileName": "xyz_logo.png"
   },
   {
     "id": 3,
     "name": "123 Ltd",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "fileName": "123_logo.png"
   }
 ]

@@ -1,23 +1,36 @@
 import React from "react";
+import fs from "fs";
+import path from "path";
 import Navbar from "@/app/components/navbar";
-import Card from "@/app/components/cards";
-import sponsorsData from "@/app/(routes)/sponsors/spons.json";
 
-const SponsorsPage = () => {
+const ImageGallery = () => {
+  const imageFolder = path.join(process.cwd(), "public/sponsors");
+  let imageFiles = [];
+
+  try {
+    imageFiles = fs.readdirSync(imageFolder);
+  } catch (error) {
+    console.error("Error reading image files:", error);
+  }
+
   return (
-    <div className="bg-gray-900">
-      <div className="min-h-sreen bg-gray-900">
-        <Navbar />
-        <div className="container mx-auto px-4 py-12">
-          <h2 className="mb-8 text-3xl font-bold text-white">Sponsors</h2>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {sponsorsData.map((sponsor) => (
-              <Card
-                key={sponsor.id}
-                logoSource={`/path/to/logos/${sponsor.fileName}`}
-                name={sponsor.name}
-                description={sponsor.description}
-              />
+    <div className="min-h-screen bg-gray-900">
+      <Navbar />
+      <div className="container mx-auto px-4 py-12">
+        <h2 className="mb-8 text-center text-3xl font-bold text-white">
+          Past Sponsors
+        </h2>
+
+        <div className="rounded-lg bg-white p-6 text-center">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {imageFiles.map((image, index) => (
+              <div key={index} className="overflow-hidden rounded-lg">
+                <img
+                  src={`/sponsors/${image}`}
+                  alt={`Image ${index}`}
+                  className="h-auto w-full"
+                />
+              </div>
             ))}
           </div>
         </div>
@@ -26,4 +39,4 @@ const SponsorsPage = () => {
   );
 };
 
-export default SponsorsPage;
+export default ImageGallery;

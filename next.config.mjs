@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    domains: ["media.discordapp.net"],
+  },
+};
 
-export default nextConfig;
+module.exports = nextConfig;
