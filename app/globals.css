@@ -39,6 +39,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 .landingPage {
     height: 100vh;
     display: flex;
@@ -51,17 +52,24 @@ body {
     color: white;
 }
 
-.landingContent img:hover{
+.landingContent img:hover {
     max-width: 200px;
     transition: transform 0.3s ease;
     transform: scale(1.1);
 }
 
-.landingContent img{
+.landingContent img {
     font-weight: 600;
 }
 
 .landingContent h1 {
     font-size: 3rem;
     margin-top: 1rem;
+}
+
+@font-face {
+    font-family: "saman";
+    src: url("/saman.tff") format("tff");
+    font-weight: normal;
+    font-style: normal;
 }

@@ -15,7 +15,7 @@ const LandingPage = () => {
               width={200}
               height={200}
             />
-            <h1>Vastra &apos;24</h1>
+            <h1 style={{ fontFamily: "saman" }}>Vastra &apos;24</h1>
           </div>
         </div>
         {/*
