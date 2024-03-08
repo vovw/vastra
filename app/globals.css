@@ -58,11 +58,8 @@ body {
     transform: scale(1.1);
 }
 
-.landingContent img {
-    font-weight: 600;
-}
-
-.landingContent h1 {
+.landingContent h1{
+    font-weight: 500;
     font-size: 3rem;
     margin-top: 1rem;
 }
