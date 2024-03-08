@@ -52,10 +52,10 @@ body {
     color: white;
 }
 
-.landingContent img{
-    align-items: center;
-    margin-left: 208px;
+.image{
+    justify-content: left;
 }
+
 
 .landingContent img:hover {
     max-width: 200px;

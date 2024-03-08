@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/navbar";
 import Image from "next/image";
+import Footer from "./components/fotter";
 
 const LandingPage = () => {
   return (
@@ -8,14 +9,15 @@ const LandingPage = () => {
       <main className="background">
         <Navbar />
         <div className="landingPage">
-          <div className="landingContent">
-            <Image 
+        <Image 
+              className="image"
               src="/logo.png"
               alt="Vastra '24 Logo"
               width={200}
               height={200}
             />
-            <h1 style={{ fontFamily: "cursive" }}>Vastra &apos;24 </h1> 
+          <div className="landingContent">
+            <h1 style={{ fontFamily: "Cambria" }}>VASTRA &apos;24 </h1> 
             <h1 style={{ fontFamily: "cursive" }}>Elevate Fashion with Technology</h1>
           </div>
         </div>
@@ -32,6 +34,7 @@ const LandingPage = () => {
             allowFullScreen
           ></iframe>
         </div> */}
+        <Footer />
       </main>
     </>
   );

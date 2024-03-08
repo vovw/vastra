@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navbar from "@/app/components/navbar";
 import Card from "@/app/components/cards";
 import eventData from "@/app/(routes)/events/events.json";
+import Footer from "@/app/components/fotter";
 
 const EventListPage = () => {
   return (
@@ -29,6 +30,7 @@ const EventListPage = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

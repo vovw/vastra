@@ -2,6 +2,7 @@ import React from "react";
 import fs from "fs";
 import path from "path";
 import Navbar from "@/app/components/navbar";
+import Footer from "@/app/components/fotter";
 
 const ImageGallery = () => {
   const imageFolder = path.join(process.cwd(), "public/sponsors");
@@ -35,6 +36,7 @@ const ImageGallery = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
