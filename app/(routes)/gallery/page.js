@@ -15,17 +15,16 @@ const GalleryPage = () => {
   };
 
   const images = [
-    "",
     "/gallery/1.jpg",
     "/gallery/2.jpg",
     "/gallery/3.jpg",
     "/gallery/4.jpg",
-    "/gallery/5.jpg",
-    "/gallery/6.jpg",
-    "/gallery/7.jpg",
-    "/gallery/8.jpg",
-    "/gallery/9.jpg",
-    "/gallery/10.jpg",
+    "/gallery/5.JPG",
+    "/gallery/6.JPG",
+    "/gallery/7.JPG",
+    "/gallery/8.JPG",
+    "/gallery/9.JPG",
+    "/gallery/10.jpeg",
     "/gallery/11.jpeg",
     "/gallery/12.jpeg",
     "/gallery/13.jpeg",
@@ -64,7 +63,7 @@ const GalleryPage = () => {
             >
               <Image
                 src={image}
-                alt={`Image ${index + 1}`}
+                alt={`Image ${index}`}
                 width={500}
                 height={500}
                 className="rounded-lg"

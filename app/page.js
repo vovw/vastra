@@ -9,13 +9,14 @@ const LandingPage = () => {
         <Navbar />
         <div className="landingPage">
           <div className="landingContent">
-            <Image
+            <Image 
               src="/logo.png"
               alt="Vastra '24 Logo"
               width={200}
               height={200}
             />
-            <h1 style={{ fontFamily: "saman" }}>Vastra &apos;24</h1>
+            <h1 style={{ fontFamily: "cursive" }}>Vastra &apos;24 </h1> 
+            <h1 style={{ fontFamily: "cursive" }}>Elevate Fashion with Technology</h1>
           </div>
         </div>
         {/*

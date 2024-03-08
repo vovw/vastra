@@ -52,17 +52,19 @@ body {
     color: white;
 }
 
+.landingContent img{
+    align-items: center;
+    margin-left: 208px;
+}
+
 .landingContent img:hover {
     max-width: 200px;
     transition: transform 0.3s ease;
     transform: scale(1.1);
 }
 
-.landingContent img {
-    font-weight: 600;
-}
-
-.landingContent h1 {
+.landingContent h1{
+    font-weight: 700;
     font-size: 3rem;
     margin-top: 1rem;
 }
