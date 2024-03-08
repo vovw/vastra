@@ -47,7 +47,6 @@ const GalleryPage = () => {
     "/gallery/29.jpeg",
     "/gallery/30.jpeg",
     "/gallery/31.jpeg",
-    "/gallery/32.jpeg",
   ];
 
   return (
