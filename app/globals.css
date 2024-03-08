@@ -33,7 +33,6 @@ body {
 }
 
 /* styles/LandingPage.module.css */
-
 .background {
     background-image: url("/VJTI.jpg");
     background-size: cover;
@@ -42,7 +41,6 @@ body {
 
 .landingPage {
     height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -50,12 +48,12 @@ body {
 .landingContent {
     text-align: center;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
 }
 
-.image{
+.image {
     justify-content: left;
 }
-
 
 .landingContent img:hover {
     max-width: 200px;
@@ -63,15 +61,8 @@ body {
     transform: scale(1.1);
 }
 
-.landingContent h1{
-    font-weight: 700;
-    font-size: 3rem;
+.landingContent h1 {
     margin-top: 1rem;
-}
-
-@font-face {
-    font-family: "saman";
-    src: url("/saman.tff") format("tff");
-    font-weight: normal;
-    font-style: normal;
+    padding: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
 }
