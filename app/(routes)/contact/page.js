@@ -13,7 +13,7 @@ const ContactPage = () => {
           </h2>
           <div className="rounded-lg bg-white p-6 text-center">
             <h3 className="mb-4 text-xl font-semibold">Contact Information</h3>
-            <p className="mb-2 text-gray-700" >
+            <p className="mb-2 text-gray-700">
               <span className="font-bold">
                 Subodh Mhanmunkar (General Secretary):
               </span>{" "}
@@ -25,7 +25,9 @@ const ContactPage = () => {
               </a>
             </p>
             <p className="mb-2 text-gray-700">
-              <span className="font-bold">Swaraj Pawar (Joint Secretary):</span>{" "}
+              <span className="font-bold">
+                Swaraj Pawar (Joint General Secretary):
+              </span>{" "}
               <a
                 href="tel:+918655737747"
                 className="text-blue-500 hover:underline focus:underline"
@@ -46,7 +48,7 @@ const ContactPage = () => {
             </p>
             <p className="mb-2 text-gray-700">
               <span className="font-bold">
-                Dr. Deepa Rajsinghania (Diploma Faculty Co-ordinator):
+                Dr. Deepa Raisinghania (Faculty Co-ordinator):
               </span>{" "}
               <a
                 href="tel:+919820560567"
