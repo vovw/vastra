@@ -7,7 +7,7 @@ const AboutPage = () => {
     <div className="min-h-screen bg-gray-900">
       <Navbar />
       <div className="container mx-auto px-4 py-12">
-        <h2 className="mb-8 text-3xl font-bold text-white">About Vastra ✨</h2>
+        <h2 className="mb-8 text-3xl font-bold text-white">About VASTRA ✨</h2>
         <div className="flex flex-col gap-6">
           <Card
             imageSource="/vjtibg.jpeg"
