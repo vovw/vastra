@@ -10,12 +10,14 @@ const EventListPage = () => {
       <Navbar />
       <div className="container mx-auto px-4 py-12">
         <h2 className="mb-8 text-3xl font-bold text-white">All Events</h2>
-        <Link
-          href="https://docs.google.com/forms/u/3/d/e/1FAIpQLSdjLR_mmXxyt1_1eJWTao3cn714TU-visPdBwBTMwsZOedeuw/viewform"
-          className="text-blue-500 hover:text-blue-700 hover:underline"
-        >
-          <h2 className="mb-8 text-xl">Register Here</h2>
-        </Link>
+        <div className="flex items-center justify-center mb-8">
+          <Link 
+            href="https://docs.google.com/forms/u/3/d/e/1FAIpQLSdjLR_mmXxyt1_1eJWTao3cn714TU-visPdBwBTMwsZOedeuw/viewform"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Register Here
+          </Link>
+        </div>
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {eventData.map((event) => (
             <Card

@@ -52,6 +52,11 @@ body {
     color: white;
 }
 
+.landingContent img{
+    align-items: center;
+    margin-left: 208px;
+}
+
 .landingContent img:hover {
     max-width: 200px;
     transition: transform 0.3s ease;
@@ -59,7 +64,7 @@ body {
 }
 
 .landingContent h1{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 3rem;
     margin-top: 1rem;
 }

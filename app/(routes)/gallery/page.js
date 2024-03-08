@@ -15,7 +15,6 @@ const GalleryPage = () => {
   };
 
   const images = [
-    "",
     "/gallery/1.jpg",
     "/gallery/2.jpg",
     "/gallery/3.jpg",
@@ -64,7 +63,7 @@ const GalleryPage = () => {
             >
               <Image
                 src={image}
-                alt={`Image ${index + 1}`}
+                alt={`Image ${index}`}
                 width={500}
                 height={500}
                 className="rounded-lg"
