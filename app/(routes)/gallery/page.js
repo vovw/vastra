@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Navbar from "@/app/components/navbar";
 import Image from "next/image";
+import Footer from "@/app/components/fotter";
 
 const GalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -104,6 +105,7 @@ const GalleryPage = () => {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 };

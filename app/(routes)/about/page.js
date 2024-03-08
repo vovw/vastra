@@ -1,6 +1,7 @@
 import Navbar from "@/app/components/navbar";
 import Card from "@/app/components/cards";
 import React from "react";
+import Footer from "@/app/components/fotter";
 
 const AboutPage = () => {
   return (
@@ -26,6 +27,7 @@ const AboutPage = () => {
           />
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

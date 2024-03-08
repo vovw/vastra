@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/navbar";
 import Image from "next/image";
+import Footer from "./components/fotter";
 
 const LandingPage = () => {
   return (
@@ -33,6 +34,7 @@ const LandingPage = () => {
             allowFullScreen
           ></iframe>
         </div> */}
+        <Footer />
       </main>
     </>
   );
